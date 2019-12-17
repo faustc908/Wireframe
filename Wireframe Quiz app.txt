@@ -1,0 +1,53 @@
+Quiz topic:  Star Wars
+
+Images:  Will use a linear Gradient
+
+body{
+  background: #0f0c29;  
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);   
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); }
+
+
+greybox wireframe:
+
+https://repl.it/@Cfaust/Greybox-Wire-Framing
+
+questions:
+
+const myQuestions = [
+	{
+	    'question': 'What was the capital of the Galatic republic?',
+      'answers': ['Corascant', 'Nar Shadda', 'Dantooine', 'Tatooine'],
+      'correct' : 0
+	},
+	{
+	    'question': 'Who destroyed the first Death Star?',
+      'answers': ['Han Solo', 'Luke Skywalker', 'Wedge', 'Biggs'],
+      'correct': 1
+	},
+	{
+	    'question': 'Who was Luke Skywalkers first master?',
+      'answers': ['Anakin Skywalker', 'Master Yoda', 'Obi Wan Kenobi', 'Boba Fett'],
+      'correct': 2
+	},
+	{
+	    'question': 'Which Star Wars film was shot entirely in the studio?',
+      'answers': ['Attack of the Clones','Revenge of the Sith','Return of the Jedi','A new Hope'],
+      'correct': 1
+	},
+	{
+	    'question': 'What color is Mace Windus lightsaber?',
+      'answers': ['red','green','blue','purple'],
+      'correct': 3
+	},
+	{
+	    'question': 'The Star Wars Holiday Special was the first appearance of which  character?',
+      'answers': ['Boba Fett', 'Jar Jar Binks','Lando Calrissian','Jabba the Hutt'],
+      'correct': 0
+	},
+	{
+	    'question': 'What actor pulled out of Episode III when he discovered that non-union actors were being used in the film?',
+      'answers': ['Mel Gibson','Gary Oldman','George Clooney','Gary Coleman'],
+      'correct': 1
+	}
+	];
